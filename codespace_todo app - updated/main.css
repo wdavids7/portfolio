@@ -1,0 +1,42 @@
+Resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End of Resets */
+
+body {
+  background-color: #f1f1f1;
+  /* color: #7a838b; */
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+header .navbar{padding: .5rem 0;}
+header nav.navbar .navbar-brand{color:#fff;}
+section.todo-outer {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+section.todo-outer h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #7a838b;
+}
+.todo-inner {
+    width: 100%;
+    float: left;
+    padding: 40px;
+    box-shadow: 0px 0px 10px #c1c1c1;
+    background: #fff;
+}
+table tr td button {
+    background: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.completed{text-decoration: line-through;}
+
