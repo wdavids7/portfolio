@@ -1,0 +1,45 @@
+[
+    {  
+        "id" : 1, 
+        "name" : "City Lodge Hotel",
+        "rate" : 750,
+        "features" : [
+            "Spacious air-conditioned room with a queen or twin beds",
+            "En-suite bathroom with bath and separate shower",
+            "Rooms with sleeper-sofa available on request",
+            "Television with selected DStv channels and radio stations",
+            "24 hour reception and check-in",
+            "Uncapped WiFi",
+            "Convenient location, close to major routes"
+        ],
+        "thumbnail" : "../../src/images/room1.jpg"
+    },
+    {
+        "id" : 2,
+        "name" : "The President Hotel",
+        "rate" : 3375,
+        "features" : [
+            "Aircon",
+            "24-hour Room Service",
+            "Semi-catering Kitchenette",
+            "Satellite (Cable)",
+            "Tea & Coffee",
+            "Wifi"
+        ],
+        "thumbnail" : "../../src/images/room2.jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "Southern Sun Hotel",
+        "rate" : 1750,
+        "features" : [
+            "Pool & Fitness Centre",
+            "Business Centre",
+            "Camelot Spa",
+            "Valet parking",
+            "Free High-Speed WiFi",
+            "Hotel & Business Services"
+        ],
+        "thumbnail" : "../../src/images/room3.jpg"
+    }
+]
