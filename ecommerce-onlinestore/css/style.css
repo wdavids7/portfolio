@@ -1,0 +1,126 @@
+/* Custom properties */
+:root {
+  /* colors */
+  --main-color: #fd4646;
+  --text-color: #333333;
+  --bg-color: #f0f0f0;
+}
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set up the body */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--text-color);
+}
+
+/* Nav Bar */
+.navbar .navbar-nav .divider {
+  color: var(--color-20);
+  font-size: 1em;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .navbar-nav .divider {
+    display: none;
+  }
+}
+/* Nav Bar */
+
+/* Homepage - featured product banner */
+.featured-product .card-banner {
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: 50%;
+  background-image: url("../admin/product-img/product_1.jpg");
+  border-radius: 10px;
+}
+/* Homepage - featured product banner */
+
+/* About Us Page - Meet the team */
+/* Animated scroll */
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translate(-100%);
+  transition: all 1s;
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0);
+}
+
+.teamCard {
+  display: flex;
+}
+
+.teamCard:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.teamCard:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.teamCard:nth-child(4) {
+  transition-delay: 600ms;
+}
+/* Animated scroll */
+/* About Us Page - Meet the team */
+
+
+/* Contact Us Page */
+.alert{
+  display: none;
+}
